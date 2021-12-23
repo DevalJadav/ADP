@@ -10,7 +10,6 @@ int main()
         {
             printf("%d is Even\n", i);
         }
-        
     }
     return 0;
 }

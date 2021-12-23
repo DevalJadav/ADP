@@ -8,7 +8,7 @@ int main()
 {
     /* code */
     int i=1, n=0;
-    while (n < 100)
+    while (n < 10)
     {
         if (i%2 != 0)
         {

@@ -8,9 +8,9 @@ int main()
     scanf("%d", &a);
     b=2021-a;
     if (18 <= b)
-      printf("You are capable");
+      printf("You are capable for vote");
    else
-      printf("You are not capable");
+      printf("You are not capable for vote");
     
     // printf("Value: %d",b);
     return 0;
