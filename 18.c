@@ -1,12 +1,16 @@
-//Write a C program to print the average of 10 numbers. Accept all the numbers from the user.
 #include<stdio.h>
-
 int main()
 {
-    int a, b, c, d, e, f, g, h, i, j, avg;
-    printf("Enter Number: \n");
-    scanf("%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
-    avg = (a+b+c+d+e+f+g+h+i+j)/10;
-    printf("Average= %d", avg);
-    return 0;
+   // This variable is to store the input number 
+   int n;
+ 
+   printf("Enter an integer: ");
+   scanf("%d",&n);
+ 
+   // Modulus (%) returns remainder
+   if (n%2 == 0)
+      printf("%d is an even number", n);
+   else
+      printf("%d is an odd number", n);
+   return 0;
 }

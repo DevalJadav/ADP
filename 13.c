@@ -1,24 +1,12 @@
-#include <stdio.h>
-void main()
+//Write a C program to print the average of 10 numbers. Accept all the numbers from the user.
+#include<stdio.h>
+
+int main()
 {
-    int i = 1, n = 20, p = 2, count, flag;
-    printf("First %d prime numbers are \n", n);
-    while (i <= n)
-    {
-        flag = 1;
-        for (count = 2; count <= p - 1; count++)
-        {
-            if (p % count == 0)
-            {
-                flag = 0;
-                break;
-            }
-        }
-        if (flag == 1)
-        {
-            printf("%d ", p);
-            i++;
-        }
-        p++;
-    }
+    int a, b, c, d, e, f, g, h, i, j, avg;
+    printf("Enter Number: \n");
+    scanf("%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
+    avg = (a+b+c+d+e+f+g+h+i+j)/10;
+    printf("Average= %d", avg);
+    return 0;
 }

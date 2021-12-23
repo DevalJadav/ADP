@@ -1,13 +1,15 @@
-//Write a C program to print the subtraction of 5 numbers. Accept the numbers from the user.
 #include<stdio.h>
 
 int main()
 {
-    int a, b ,c;
-    printf("Enter your number: \n");
-    scanf("%d %d %d", &a, &b, &c);
-    printf("Sum Of Three Number %d / %d / %d = %d", a, b, c, a/b/c);
-
-    //printf("Value: %d %d %d", a, b, c);
+    /* code 
+    b= birth year c= currentyear
+    */
+    int b, c;
+    printf("Enter Your Birth Year: \n");
+    scanf("%d", &b);
+    printf("Your Birth Year is: %d\n", b);
+    c=2021;
+    printf("Your age is: %d - %d = %d", c, b, c-b);
     return 0;
-}   
+}

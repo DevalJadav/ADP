@@ -1,13 +1,14 @@
-// Write a C program to print the subtraction of 5 numbers. Accept the numbers from the user.
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    int a, b, c;
-    printf("Enter your number: \n");
-    scanf("%d %d %d", &a, &b, &c);
-    printf("Sum Of Three Number %d - %d - %d = %d", a, b, c, a - b - c);
+    /* code */
+    float f, c;
+    printf("Enter Your Fahrenheit Value: \n");
+    scanf("%f", &f);
+    
+    //convet Fahrenheit into Celsius 
+    printf("Fahrenheit Into Celsius: %f", c=(f-32)/1.8);
 
-    // printf("Value: %d %d %d", a, b, c);
     return 0;
 }
