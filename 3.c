@@ -17,8 +17,3 @@ int main()
     
     return 0;
 }
-
-/* 
-%d = int value
-%f = float value
-*/
