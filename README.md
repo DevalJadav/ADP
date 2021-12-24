@@ -1,1 +1,2 @@
-# ADP
+This repositary is for a C C++ program if you are new in this field then trust me this for you. In this repositary you can easily understand C program from beginning I hope you like this repositary.
+Thank You for choose this repositary.
