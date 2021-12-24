@@ -1,3 +1,4 @@
+//Write a C program to print given number prime or not.
 #include <stdio.h>
 
 int main()
@@ -12,6 +13,7 @@ int main()
             a++;
         }
     }
+
     if (a == 2)
     {
         printf("this number is prime number\n");
