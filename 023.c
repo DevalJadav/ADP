@@ -1,5 +1,6 @@
 #include <stdio.h>
-void main()
+
+int main()
 {
     int i = 1, n = 20, p = 2, count, flag;
     printf("First %d prime numbers are \n", n);
