@@ -5,7 +5,7 @@ int main()
     /* code
     P = price
     R = rate
-    N = No of month or year */
+    N = No of month */
     float p, r, n;
     printf("Enter Your Price: \n");
     scanf("%f", &p);
@@ -13,7 +13,8 @@ int main()
     scanf("%f", &r);
     printf("Enter Your Month: \n");
     scanf("%f", &n);
-    printf("Your Interest Is: %f", p*r*n/100);
+    float i = p * r * n / 100;
+    printf("Your Interest Is: %f", i);
     
     return 0;
 }

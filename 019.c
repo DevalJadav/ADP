@@ -1,3 +1,4 @@
+//Write a C program to accept user birth year and check he or she is capable for voting or not.
 #include<stdio.h>
 
 int main()
