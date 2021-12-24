@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n, i, a=0;
+    int n, i, count=0;
     for (n = 1; n <= 100 ; n++)
     {
         for (i = 2; i < n; i++)
@@ -19,8 +19,8 @@ int main()
         {
             /* code */
             printf("%d\n", i);
-            a++;
-            if (a == 20)
+            count++;
+            if (count == 20)
             {
                 /* code */
                 break;
