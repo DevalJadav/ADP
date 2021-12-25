@@ -1,30 +1,23 @@
 // Write a C program to print the first 20 prime numbers.
 #include <stdio.h>
-
 int main()
 {
-    int n, i, count=0;
-    for (n = 1; n <= 100 ; n++)
+    int ct = 0, n = 0, i = 1, j = 1;
+    while (n < 20)
     {
-        for (i = 2; i < n; i++)
+        j = 1;
+        ct = 0;
+        while (j <= i)
         {
-            /* code */
-            if (n % i == 0)
-            {
-                /* code */
-                break;
-            } 
+            if (i % j == 0)
+                ct++;
+            j++;
         }
-        if (i == n)
+        if (ct == 2)
         {
-            /* code */
-            printf("%d\n", i);
-            count++;
-            if (count == 20)
-            {
-                /* code */
-                break;
-            }
+            printf("%d ", i);
+            n++;
         }
+        i++;
     }
 }
