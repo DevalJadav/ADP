@@ -1,4 +1,4 @@
-//Write a C program to accept the 2 numbers from the user and find which one is bigger.
+//Write a C program to accept the 3 numbers from the user and find which one is bigger.
 #include<stdio.h>
 
 int main()

@@ -3,12 +3,11 @@
 
 int main()
 {
-    int r;
     const float PI = 3.14;
-    float a, c;
+    float a, c, r;
 
     printf("Enter Your Circle Radius: \n");
-    scanf("%d", &r);
+    scanf("%f", &r);
 
     printf("Area Of Circle: %f\n", PI*r*r);
     

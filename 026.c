@@ -9,7 +9,7 @@ int main()
     printf("Enter Your Second Number: \n");
     scanf("%d", &b);
     
-    if (a > b)
+    if(a > b)
     {
         /* code */
         printf("%d is bigger than %d", a, b);
@@ -24,5 +24,4 @@ int main()
         /* code */
         printf("%d is bigger than %d", b, a);
     }
-    
 }

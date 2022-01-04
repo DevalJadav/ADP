@@ -3,23 +3,22 @@
 
 int main()
 {
-    int n, a = 0, b = 0, i = 1;
+    int n, i = 1, sum = 0;
     printf("Enter Your Number: \n");
     scanf("%d", &n);
     printf("First %d Even Numbers are:- ", n);
-    while (a < n)
+    while (i < n)
     {
         /* code */
         if (i%2 == 0)
         {
             /* code */
             printf("%d ", i);
-            a++;
-            b = b + i;
+            sum = sum + i;
         }
         i++;
         
     }
-    printf("\nAnd their sum is %d\n", b);
+    printf("\nAnd their sum is %d\n", sum);
     return 0;
 }
