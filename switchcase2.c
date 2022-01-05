@@ -1,4 +1,4 @@
-/* 
+/*
 Write a program to perform following operation string operations with help of string
 manipulation functions.(Using switch case statement)
 a. Addition
@@ -8,13 +8,13 @@ d. Division
 e. Modulus
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
     int choice, a, b;
     index:
-    printf("Press 1 for Addition\n Press 2 for Substraction\n Press 3 Multiplication\n Press 4 for Division\n Press 5 for Modulus\n");
+    printf("Press 1 for Addition\nPress 2 for Substraction\nPress 3 For Multiplication\nPress 4 for Division\nPress 5 for Modulus\n");
     printf("Enter Your Choice: \n");
     scanf("%d", &choice);
 
@@ -25,27 +25,27 @@ int main()
     {
     case 1:
         /* code */
-        printf("Addition of %d and %d is %d\n", a, b, a+b);
+        printf("Addition of %d and %d is %d\n", a, b, a + b);
         break;
-    
+
     case 2:
         /* code */
-        printf("Substraction of %d and %d is %d\n", a, b, a-b);
+        printf("Substraction of %d and %d is %d\n", a, b, a - b);
         break;
-        
+
     case 3:
         /* code */
-        printf("Multiplication of %d and %d is %d\n", a, b, a*b);
+        printf("Multiplication of %d and %d is %d\n", a, b, a * b);
         break;
 
     case 4:
         /* code */
-        printf("Division of %d and %d is %d\n", a, b, a/b);
+        printf("Division of %d and %d is %d\n", a, b, a / b);
         break;
 
     case 5:
         /* code */
-        printf("Modulus of %d and %d is %d\n", a, b, a%b);
+        printf("Modulus of %d and %d is %d\n", a, b, a % b);
         break;
 
     default:
@@ -54,7 +54,7 @@ int main()
     }
 
     index2:
-    printf("Press 0 for exit\n Press 1 For go to index \n choice: ");
+    printf("Press 0 for exit\n Press 1 For Continue \n choice: ");
     scanf("%d", &choice);
 
     if (choice == 1)
