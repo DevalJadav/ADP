@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a[100], b[100], i, x, y, sum;
+    int a[100000], b[100000], i, x, y, sum;
 
     printf("Enter Number of A Array: \n");
     scanf("%d", &x);
