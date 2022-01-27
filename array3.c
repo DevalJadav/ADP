@@ -30,7 +30,7 @@ int main()
     }
 
     //Substraction
-    printf("\nAddition of Two Array: \n");
+    printf("\nSubstraction of Two Array: \n");
     for (i = 0; i < x; i++)
     {
         /* code */
@@ -39,7 +39,7 @@ int main()
     }
 
     //Multiplication
-    printf("\nAddition of Two Array: \n");
+    printf("\nMultiplication of Two Array: \n");
     for (i = 0; i < x; i++)
     {
         /* code */
@@ -48,7 +48,7 @@ int main()
     }
 
     //Division
-    printf("\nAddition of Two Array: \n");
+    printf("\nDivision of Two Array: \n");
     for (i = 0; i < x; i++)
     {
         /* code */
@@ -57,7 +57,7 @@ int main()
     }
 
     //Modulus
-    printf("\nAddition of Two Array: \n");
+    printf("\nModulus of Two Array: \n");
     for (i = 0; i < x; i++)
     {
         /* code */
